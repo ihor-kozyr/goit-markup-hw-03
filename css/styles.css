@@ -1,0 +1,310 @@
+
+
+
+body{ font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+background-color: #E5E5E5;
+
+}
+:root{
+    --theme-color:#2196F3;
+    --text-primary: #757575;
+   --text-secondary: #212121;
+
+   --primari-font:'Roboto';
+   --secondary-font:'Raleway';
+
+
+}
+ul{ list-style: none;}
+
+
+
+a {  text-decoration:none;
+list-style: none;}
+
+/*Logo*/
+.color-logo1{ color: #2196F3}
+.color-logo2{color: #000;}
+.color-logo3{color: #FFF;}
+.logo-box{
+font-family: var(--secondary-font);
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+
+/* header */
+.heder-box{
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+background: #FFF;
+
+}
+/*flex start*/
+.nav-box{
+  display: inline-flex;
+}
+.nav-menu{
+   display: block;
+  display: inline-flex;
+}
+.nav-contact{
+  display: block;
+  display: inline-flex;
+
+}
+.features-section{
+  display: block;
+  display: inline-flex;
+  
+}
+.what-we-do-healine-content{
+   display: block;
+  display: inline-flex;
+}
+
+.team-content{
+  display: block;
+  display: inline-flex;
+}
+/*flex end*/
+
+
+
+
+
+.nav-link{
+color: var(--text-secondary);
+font-family:  var(--primari-font);
+font-weight: 500;
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link:active{
+  color: var(--theme-color);}
+
+.contakt-link {
+        color: var(--text-primary);
+}
+.contakt-link:focus, .contakt-link:hover{
+        color: var(--theme-color);
+   
+}
+
+
+/* active page!!*/
+.active-page{color: var(--theme-color);
+font-family:var(--primari-font);
+font-weight: 500;}
+
+/*Slogan*/
+.slogan{
+font-family: var(--primari-font);  
+ width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;}
+
+
+
+/*Features*/
+.headline-features{
+  
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--text-secondary);}
+
+
+.text-features{
+ width: 270px;   
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--text-primary);
+}
+
+/*What we do*/
+.what-we-do-healine{
+   
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-secondary);}
+
+/* Team*/
+.team{
+background: #F5F4FA;
+}
+.team-headline{
+
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-secondary);}
+.team-name{
+
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-secondary);
+}
+.team-positon{
+
+
+font-size: 16px;
+line-height: 1.9;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-primary);
+}
+.team-box{
+    width: 270px;
+
+background-color: #fff;
+}
+
+
+/*filter */
+
+.filter{cursor: pointer;
+background: #F5F4FA;
+
+border-radius: 4px;
+font-weight: 500;
+font-family:var(--primari-font);
+
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em
+
+
+}
+
+
+
+.filter:hover, .filter:active, .filter:focus  {
+    color: #fff;
+background-color:var(--theme-color);
+font-family: var(--primari-font);
+}
+
+.filter-box{
+ 
+  display: inline-flex;
+  justify-content: center;
+}
+.filter-box2{
+ display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+/*Portfolio projects*/
+.portfolio-projects-box{
+ width: 370px;
+
+background: #FFF;
+border: 1px solid #EEE;
+box-sizing: border-box;   
+}
+.portfolio-project-headline{
+ 
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--text-secondary);
+}
+.portfolio-project-categori{
+
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+color: var(--text-primary);
+}
+.images-portfolio{
+   width: 370px; 
+}
+
+
+/* Order a service */
+.btn-order{
+ 
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+background: var(--theme-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;}
+
+.order-text{
+  font-family: var(--primari-font);
+font-weight: bold;  
+
+line-height: 30px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFF;
+font-family:  var(--primari-font);
+font-style: normal;
+font-weight: bold;
+}
+
+
+
+
+/*  Footer*/
+.footer-box{
+background: #2F303A;}
+.footer-contacts{
+
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);}
+.footer-contacts:hover, .footer-contacts:active, .footer-contacts:focus  {
+    color: var(--theme-color);
+    font-family:   var(--primari-font);
+}
+
+
+.footer-address{
+font-family: var(--primari-font);  
+font-style:normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+color: #FFF;}
+
+
+.footer-logo{
+font-family:   var(--secondary-font);
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
