@@ -1,6 +1,6 @@
 :root {
   --accent-color: #2196f3;
-  --primary-white-color: #ffffff;
+  --primary-white-color: #fff;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --title-text-color: #212121;
@@ -78,6 +78,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+
   display: flex;
   align-items: center;
   letter-spacing: 0.06em;
